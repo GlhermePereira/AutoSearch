@@ -19,7 +19,7 @@ class Products extends Model
     ];
 
     public function getbuyingPriceWithCurrencyAttribute(){
-        return formatCurrency($this->attributes['buyingPrice','AFN',6]);
+        //return formatCurrency($this->attributes['buyingPrice','AFN',6]);
     }
 
 }
